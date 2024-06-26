@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {  
+    font-family: 'Ubuntu';
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 20px auto;
+}
+.header{
+    border: 1px solid rgb(0, 0, 0, 0.1);
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container .logo{
+    width: 227px;
+    height: 46px;
+}
+.menu .menu_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 39px;
+}
+.menu_item{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Ubuntu';
+}
+.menu_item a{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 222, 1);
+    transition: all 0.5s ease-in-out;
+}
+.menu_item a:hover{
+    text-shadow: 1px 2px 3px rgb(90, 90, 124);
+    color: rgb(90, 90, 124);
+}
+.contact .phone{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.phone a{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(0, 0, 222, 1);
+    transition: all 0.5s ease-in-out;
+}
+.phone:hover{
+    text-shadow: 1px 2px 3px rgb(90, 90, 124);
+    color: rgb(103, 95, 88);
+}
+.search a img{
+    text-decoration: none;
+    margin-left: -70px;
+    width: 16px;
+    height: 16px;
+}
+.auth{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: -100px;
+}
+.auth a{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px;
+    border-radius: 20px 0 20px 0;
+    background-color: rgba(0, 0, 222, 1);
+    transition: all 0.5s ease-in-out;
+}
+.auth .auth_links{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: rgba(0, 0, 222, 1);
+    padding: 15px;
+    border-radius: 20px 0 20px 0;
+    border: 1px solid #c4b4b4cc;
+    background-color: rgb(241, 234, 234);
+    transition: all 0.5s ease-in-out;
+}
+
+.auth a:hover{
+    background-color: rgb(103, 95, 88);
+}
+
+/* Hero section */
+.hero{
+    margin-top: 0;
+    background-color: rgba(70, 65, 65, 0.12);
+}
+
+.hero_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.hero_info h1{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 1);     
+}
+.hero_info h1 span{
+    color: rgba(0, 0, 222, 1);
+}
+
+.hero_info p{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.authi{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.authi a{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 222, 1);
+    transition: all 0.5s ease-in-out;
+}
+
+.authi .authi_link{
+    padding: 23px;
+    color: #fff;
+    background-color: rgba(0, 0, 222, 1);
+    border-radius: 20px 0 20px 0;
+}
+.authi a:hover{
+    box-shadow: 1px 2px 3px rgb(90, 90, 124);
+    background-color: rgb(103, 95, 88);
+    color: #fff;
+}
+.authi .authi_links{
+    padding: 23px;
+    color: rgba(0, 0, 222, 1);
+    border: 1px solid #c4b4b4cc;
+    border-radius: 20px 0 20px 0;
+}
+
+/* Enjoy section */
+
+.enjoy_info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 100px;
+}
+
+/* Elektron section */
+
+.elektron_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px;
+}
+.elektron_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.elektron_info h3{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 1);
+}
+.elektron_info p{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(100, 137, 160, 1);
+}
+
